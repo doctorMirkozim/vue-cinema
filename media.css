@@ -1,0 +1,96 @@
+@media (max-width:1150px) {
+    .series-second__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .coll-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .coll-card {
+        border-radius: 6px;
+    }
+
+    .films-cards {
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        border-radius: 6px;
+    }
+
+    .main-card {
+        background-position: center;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        background: linear-gradient(0deg, rgba(131, 58, 180, 0.5046393557422969) 0%, rgba(253, 29, 29, 0.5466561624649859) 50%, rgba(252, 176, 69, 0.5018382352941176) 100%);
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: 700ms;
+    }
+
+    .nav-list__link {
+        font-size: 30px;
+
+    }
+
+    .burger {
+        display: block;
+        position: sticky;
+        right: 5%;
+        font-size: 40px;
+        color: white;
+        z-index: 10;
+
+    }
+
+    .burger:hover~.nav-list {
+        right: 0;
+    }
+
+    .series-mini-cards {
+        justify-content: center;
+    }
+
+    .trailer img {
+        width: 100%;
+    }
+
+    .series-first__card {
+        background-position: center;
+    }
+}
+
+@media (max-width:850px) {
+    .main-card {
+        background: url(https://www.mirf.ru/wp-content/uploads/2016/01/ianderry_rocket_38.jpg);
+        background-position: -688px -218px;
+        height: 640px;
+    }
+}
+@media (max-width)
